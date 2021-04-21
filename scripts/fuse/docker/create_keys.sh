@@ -34,7 +34,6 @@ kdb set dir:/dirkey "Key from /root/dirkeys/b"
 cd /root/dirkeys
 kdb set dir:/dirkey "Key from /root/dirkeys"
 
-
 #create dummy processes (that expose different values in dir:)
 cd /root/dirkeys/a
 sudo -u testuser -i nohup sleep 9999999 &
